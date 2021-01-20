@@ -1,0 +1,11 @@
+<launch>
+    <node pkg="interaccion" name="informacion_personal_nodo" type="informacion_personal_nodo.py" respawn="true" output="screen" launch-prefix="xterm -e"/>
+    <node pkg="interaccion" name="emocion_usuario_nodo" type="emocion_usuario_nodo.py" respawn="true" output="screen" launch-prefix="xterm -e"/>
+    <node pkg="interaccion" name="posicion_usuario_nodo" type="posicion_usuario_nodo.py" respawn="true" output="screen" launch-prefix="xterm -e"/>
+    <node pkg="interaccion" name="empaquetador_nodo" type="empaquetador_nodo.py" respawn="true" output="screen" launch-prefix="xterm -e"/>
+    <node pkg="interaccion" name="dialogo_nodo" type="dialogo_nodo.py" respawn="true" output="screen" launch-prefix="xterm -e"/>
+    <node pkg="interaccion" name="matematico_nodo" type="matematico_nodo.py" respawn="true" output="screen" launch-prefix="xterm -e"/>
+    <node pkg="interaccion" name="reloj_nodo" type="reloj_nodo.py" respawn="true" output="screen" launch-prefix="xterm -e"/>
+    <node pkg="interaccion" name="data_nodo" type="gestion_datos_nodo.py" respawn="true" output="screen" launch-prefix="xterm -e"/>
+    <node pkg="interaccion" name="mostrardata_nodo" type="mostrardatos_nodo.py" output="screen" />
+ </launch>

@@ -1,0 +1,6 @@
+<launch>
+  <node pkg="interaccion" name="matematico_nodo" type="matematico_nodo.py" respawn="true" output="screen" launch-prefix="xterm -e"/>
+  <node pkg="interaccion" name="reloj_nodo" type="reloj_nodo.py" respawn="true" output="screen" launch-prefix="xterm -e"/>
+  <node pkg="interaccion" name="data_nodo" type="gestion_datos_nodo.py" respawn="true" output="screen" launch-prefix="xterm -e"/>
+  <node pkg="interaccion" name="mostrardata_nodo" type="mostrardatos_nodo.py" output="screen" />
+</launch>
