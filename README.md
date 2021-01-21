@@ -26,7 +26,7 @@ roslaunch interaccion interaccion_local.launch
 
 ## Extra: robot system navigation initialization
 
-After launching multi-robot system from [robotics package](https://github.com/ramajoballester/robotics), the system can be initialized by checking user data with
+After launching multi-robot system from [robotics package](https://github.com/ramajoballester/robotics) with ```roslaunch robotics autonomous_multi_house.launch```, the system can be initialized by checking user data with
 
 ```
 roslaunch interaccion robots_check.launch
